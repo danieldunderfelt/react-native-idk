@@ -1,7 +1,11 @@
 #include "react-native-idk.h"
 
 namespace idk {
-	double multiply(double a, double b) {
-		return a * b;
-	}
+    std::string generate(std::string input) {
+      // Interpolate the input into the string
+      std::string output = "Hello, " + input + "!";
+
+      // Return the interpolated string
+      return output;
+    }
 }

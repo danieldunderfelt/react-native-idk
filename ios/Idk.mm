@@ -5,9 +5,13 @@ RCT_EXPORT_MODULE()
 
 // Don't compile this code when we build for the old architecture.
 #ifdef RCT_NEW_ARCH_ENABLED
-- (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(idk::multiply(a, b));
-
+- (NSString *)generate:(NSString *)input {
+    // Convert NSString to std::string
+    std::string cppInput = [input UTF8String];
+    // Call the C++ function
+    std::string cppResult = idk::generate(cppInput);
+    // Convert std::string back to NSString
+    NSString *result = [NSString stringWithUTF8String:cppResult.c_str()];
     return result;
 }
 

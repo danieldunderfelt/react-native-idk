@@ -1,8 +1,10 @@
 #ifndef IDK_H
 #define IDK_H
 
+#include <string>
+
 namespace idk {
-  double multiply(double a, double b);
+  std::string generate(std::string input);
 }
 
 #endif /* IDK_H */
