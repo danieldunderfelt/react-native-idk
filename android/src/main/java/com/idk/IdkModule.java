@@ -1,4 +1,4 @@
-package com.idk;
+package com.danieldunderfelt.idk;
 
 import androidx.annotation.NonNull;
 
@@ -23,12 +23,12 @@ public class IdkModule extends NativeIdkSpec {
     System.loadLibrary("react-native-idk");
   }
 
-  private static native double nativeMultiply(double a, double b);
+  private static native String nativeGenerate(String input);
 
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   @Override
-  public double multiply(double a, double b) {
-    return nativeMultiply(a, b);
+  public String generate(String input) {
+    return nativeGenerate(input);
   }
 }

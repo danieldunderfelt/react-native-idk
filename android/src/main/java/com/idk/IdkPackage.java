@@ -1,4 +1,4 @@
-package com.idk;
+package com.danieldunderfelt.idk;
 
 import androidx.annotation.Nullable;
 

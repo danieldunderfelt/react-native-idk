@@ -43,7 +43,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.idk"
+    namespace "com.danieldunderfelt.idk"
 
     sourceSets {
       main {
@@ -122,6 +122,6 @@ if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "Idk"
-    codegenJavaPackageName = "com.idk"
+    codegenJavaPackageName = "com.danieldunderfelt.idk"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "react-native-idk",
-  "version": "0.0.1",
+  "version": "0.0.1-initial",
   "description": "React-Native Intelligence Development Kit is the toolkit you need to build AI-powered apps which leverage both local and cloud AI inference.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
