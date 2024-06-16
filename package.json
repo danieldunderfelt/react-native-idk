@@ -116,14 +116,7 @@
     ],
     "rules": {
       "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
+        "error"
       ]
     }
   },
@@ -131,15 +124,6 @@
     "node_modules/",
     "lib/"
   ],
-  "prettier": {
-    "printWidth": 120,
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "all",
-    "tabWidth": 2,
-    "quoteProps": "consistent",
-    "useTabs": false
-  },
   "react-native-builder-bob": {
     "source": "src",
     "output": "lib",

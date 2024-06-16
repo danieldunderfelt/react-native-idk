@@ -37,3 +37,8 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
+
+I want to run a good LLM locally in a React-native app. Starting with ios, what's the minimum implementation I need for running a coreml model in a react-native app? I am making this as a library, and I have all the scaffolding set up so please skip all React-native setup.
+
+Do not suggest libraries. I want to know how to run CoreML models in the native iOS code. The users of my library will add the models they want to use to their React-native app, the library should not come with a model. All implementations should use Objective-C.

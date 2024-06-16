@@ -1,7 +1,3 @@
-#ifdef __cplusplus
-#import "react-native-idk.h"
-#endif
-
 #ifdef RCT_NEW_ARCH_ENABLED
 #import "RNIdkSpec.h"
 
